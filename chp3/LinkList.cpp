@@ -46,13 +46,14 @@ void Utils::deleteLinkList(LinkListNode* iHead)
 void Utils::PrintLinkList(LinkListNode* iHead)
 {
     LinkListNode* lNode  = iHead;
-    cout<<"Begin to Print LinkList:\t";
+    cout<<"Begin to print LinkList:\t";
     while (lNode)
     {
-        cout<< lNode->mData <<"\t";
+        cout<< lNode->mData <<"\t" <<"->";
         lNode = lNode->next;
     }
     cout<<endl;
+    cout<<"Finished to print LinkList:\t";
 }
 
 LinkListNode* RemoveDuplicateNode(LinkListNode* iHead)
