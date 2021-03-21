@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-int EvalurateExpression(string input)
+int EvaluateExpression(string input)
 {
     stack<int> lStack; 
     for(int i = 0; i < input.length(); i++)
@@ -36,7 +36,7 @@ int EvalurateExpression(string input)
 void testAcceptance()
 {
     string lStr = "45+72-*";
-    assert(EvalurateExpression(lStr) ==45);
+    assert(EvaluateExpression(lStr) ==45);
 }
 int main()
 {

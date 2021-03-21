@@ -32,8 +32,6 @@ void InOrderTransversalTree(TreeNode* iRoot, vector<int>& irValues)
            lpNode = lpTop->right;
        }       
     }
-    
-    
 }
 void testAcceptance()
 {
