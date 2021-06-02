@@ -1,0 +1,2 @@
+Find Missing Num: https://leetcode-cn.com/problems/missing-number/
+Single Num: https://leetcode-cn.com/problems/single-number/
