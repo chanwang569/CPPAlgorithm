@@ -1,2 +1,5 @@
 Find Missing Num: https://leetcode-cn.com/problems/missing-number/
 Single Num: https://leetcode-cn.com/problems/single-number/
+Single Num II: https://leetcode-cn.com/problems/single-number-ii/
+Majority Number : https://leetcode-cn.com/problems/majority-element/
+Majority Number II : https://leetcode-cn.com/problems/majority-element-ii/
